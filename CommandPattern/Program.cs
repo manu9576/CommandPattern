@@ -21,6 +21,8 @@ namespace CommandPattern
             user.Compute('-', 50);
             user.Compute('*', 10);
             user.Compute('/', 2);
+            user.Compute('+', 13);
+            user.Compute('*', 10);
 
             // Undo 4 commands
             user.Undo(4);

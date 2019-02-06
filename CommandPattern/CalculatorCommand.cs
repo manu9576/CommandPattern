@@ -14,8 +14,7 @@ namespace CommandPattern
         private Calculator _calculator;
 
         // Constructor
-        public CalculatorCommand(Calculator calculator,
-          char @operator, int operand)
+        public CalculatorCommand(Calculator calculator,char @operator, int operand)
         {
             this._calculator = calculator;
             this._operator = @operator;
